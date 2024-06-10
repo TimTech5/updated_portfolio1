@@ -432,6 +432,9 @@ nav .fa-solid {
   .copyright {
     font-size: 14px;
   }
+  .contact-left p {
+    text-decoration: none;
+  }
 }
 
 #msg {
