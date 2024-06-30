@@ -208,6 +208,16 @@ nav ul li a:hover::after {
   margin-top: 50px;
 }
 
+.infowork {
+  font-size: 16px;
+  text-align: center;
+  color: #d9ff0071;
+}
+
+.linkclick {
+  color: #d9ff0071;
+}
+
 .work {
   border-radius: 10px;
   position: relative;
@@ -356,7 +366,7 @@ form .btn2 {
 }
 
 .copyright i {
-  color: #ff004f;
+  color:#d9ff0071;
 }
 
 /*-- CSS for small screen*/
