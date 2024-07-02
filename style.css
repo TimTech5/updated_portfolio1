@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #080808;
+  background-color: #000;
   color: #fff;
 }
 #header {
@@ -291,6 +291,59 @@ nav ul li a:hover::after {
   background: #ff004f;
 }
 
+/*---Articles--*/
+#Article {
+  padding: 30px 0;
+}
+
+.Article-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.Article-list div {
+  
+ /* background-image: url("images/article.jpg");*/
+
+  
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+.Article-list div i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.Article-list div h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.Article-list div a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.Article-list div:hover {
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+
+/*--end--?
+
+
+
+
 /* ----contact---*/
 .contact-left {
   flex-basis: 35%;
@@ -308,8 +361,8 @@ nav ul li a:hover::after {
 
 .contact-left p i {
   color: #ff004f;
-  margin-right: 15px;
-  font-size: 25px;
+  margin-right:15px;
+  font-size: 20px;
 }
 
 .social-icons {
@@ -366,7 +419,7 @@ form .btn2 {
 }
 
 .copyright i {
-  color:#d9ff0071;
+  color: #d9ff0071;
 }
 
 /*-- CSS for small screen*/
@@ -445,6 +498,11 @@ nav .fa-solid {
   .contact-left p {
     text-decoration: none;
   }
+  .contact-left p i {
+  color: #ff004f;
+  margin-right:15px;
+  font-size: 20px;
+}
 }
 
 #msg {
